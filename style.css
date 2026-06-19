@@ -13,3 +13,87 @@ h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
+
+nav{
+    background-color: rgb(255, 100, 44);
+}
+
+nav ul{
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+
+    margin-bottom: 20px;
+
+    padding-bottom: 5px;
+
+    font-size: large;
+}
+
+nav a{
+    color: rgb(68, 136, 255);
+
+    text-decoration: none;
+}
+
+.grid-container{
+    display: inline-grid;
+
+    grid-template-columns: 1fr, 1fr, 1fr;
+
+    background-color: azure;
+
+    padding: 10px;
+}
+
+.item{
+    background-color: azure;
+
+    border: 1px solid black;
+
+    padding: 20px;
+
+    justify-content: center;
+
+    align-content: center;
+
+    text-align: center;
+}
+
+.item2{
+    background-color: azure;
+
+    border: 1px solid black;
+
+    padding: 20px;
+
+    font-size: 30px;
+
+    justify-content: center;
+
+    align-content: center;
+
+    text-align: center;
+
+    grid-column: span 2;
+}
+
+.item3{
+    background-color: azure;
+
+    border: 1px solid black;
+
+    padding: 20px;
+
+    align-content: center;
+
+    text-align: center;
+
+    grid-column: span 3;
+}
